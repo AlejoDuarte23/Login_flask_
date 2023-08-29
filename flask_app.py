@@ -10,7 +10,7 @@ def login():
         password = request.form['password']
         # Replace with your actual authentication logic
         if username == 'engineer1' and password == 'Mincka2023':
-            return redirect('http://localhost:8000')  # Redirect to the Streamlit app
+            return redirect('http://localhost:8501')  # Redirect to the Streamlit app
         else:
             return "Invalid credentials"
     return render_template('login.html')
